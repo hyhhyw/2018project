@@ -88,14 +88,17 @@ namespace Project8 {
 			this->Controls->Add(this->button1);
 			this->Name = L"MyForm";
 			this->Text = L"MyForm";
+			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->ResumeLayout(false);
 
 		}
 #pragma endregion
-// 어느 화면으로 전화시킬지 지정//
+// 어느 화면으로 전화시킬지 지정// // 지정폼//
 	private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
 	}
 	private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
+	}
+	private: System::Void MyForm_Load(System::Object^  sender, System::EventArgs^  e) {
 	}
 	};
 }
