@@ -1,0 +1,7 @@
+﻿  MyForm.cpp
+  MyForm12.cpp
+  코드를 생성하고 있습니다...
+  MyForm.obj : MSIL 모듈이 발견되었습니다. MSIL에 증분 링크를 사용할 수 없습니다. 전체 링크를 수행하고 있습니다.
+MyForm12.obj : error LNK2005: "void __clrcall Main(cli::array<class System::String ^ >^)" (?Main@@YMXP$01AP$AAVString@System@@@Z)이(가) MyForm.obj에 이미 정의되어 있습니다.
+MyForm12.obj : error LNK2005: "void __clrcall Main(cli::array<class System::String ^ >^)" (?Main@@$$FYMXP$01AP$AAVString@System@@@Z)이(가) MyForm.obj에 이미 정의되어 있습니다.
+C:\Users\hyhhy\source\repos\Project8\Debug\Project8.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
